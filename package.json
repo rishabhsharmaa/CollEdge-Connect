@@ -11,7 +11,7 @@
     "lint": "oxlint",
     "preview": "vite preview",
     "start": "node server/index.js",
-    "build-all": "npm install && npm run build && npm install --prefix server"
+    "build-all": "npm install --include=dev && npm run build && npm install --prefix server"
   },
   "dependencies": {
     "react": "^19.2.7",
